@@ -513,9 +513,9 @@
 		}
 
 		.button.special {
-			background: #83d3c9;
-			border-color: #83d3c9;
-			color: white !important;
+			background: #e3e1d8;
+			border-color: #eb9847;
+			color: black !important;
 		}
 
 			.button.special:hover {
@@ -537,7 +537,7 @@
 
 	.wrapper {
 		margin-bottom: 5em;
-		padding: 5em;
+		padding: 2em;
 	}
 
 		.wrapper.style1 {
