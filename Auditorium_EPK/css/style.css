@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("font-awesome.min.css");
-@import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,700italic,800,800italic");
 @import url("https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700");
 
 /* Basic */
@@ -25,11 +25,11 @@
 
 	body, input, select, textarea {
 		color: #7c8081;
-		font-family: 'Lato', sans-serif;
-		font-size: 15pt;
+		font-size: 12pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.75em;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	a {
@@ -42,8 +42,14 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.5em 0;
+		font-family: 'Open Sans', sans-serif;
+		
 	}
+	
+	i { 
+    font-style: italic;
+}
 
 	h1, h4, h5, h6 {
 		color: inherit;
@@ -51,7 +57,7 @@
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform:;
-		font-style: italic
+		font-style: italic;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -59,7 +65,7 @@
 			text-decoration:;
 			font-family: 'Old Standard TT', serif;
 			text-transform:;
-			font-style: italic
+			font-style: italic;
 		}
 
 	h2 {
@@ -67,14 +73,13 @@
 		letter-spacing: 0.1em;
 		font-family: 'Old Standard TT', serif;
 		font-style: italic;
-		display: in-line block;
 	}
 
 	h3 {
 		font-size: 1.15em;
 		letter-spacing: 0.025em;
 		font-family: 'Old Standard TT', serif;
-		font-style: italic
+		font-style: italic;
 	}
 
 	sub {
@@ -167,12 +172,6 @@
 		padding-top: 3em;
 	}
 	
-	FIGCAPTION {
-
-	font-style: italic;
-	font-variant: small-caps;
-	float: bottom right;
-}
 
 /* Form */
 
@@ -494,7 +493,6 @@ border-radius: 50%;
 
 	table {
 		width: 100%;
-		border-collapse: collapse;
 	}
 
 		table.default {
@@ -507,8 +505,6 @@ border-radius: 50%;
 
 			table.default td {
 				padding: 20em 20em 20em 20em;
-    padding-top: .5em;
-    padding-bottom: .5em;
 			}
 
 			table.default th {
