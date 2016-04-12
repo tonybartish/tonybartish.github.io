@@ -242,6 +242,11 @@ html, body {
 	.formerize-placeholder {
 		color: rgba(124, 128, 129, 0.5) !important;
 	}
+	
+	tr {
+	padding: 20px
+	}
+	
 
 /* Image */
 	
